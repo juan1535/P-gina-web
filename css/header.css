@@ -85,20 +85,3 @@ nav {
   }
   
 
-  @media (width > 800px) {
-    .nav__contenedor {
-      display: flex;
-      --transform-menu-show: translate(0);
-    }
-    .nav__togle {
-      display: none;
-    }
-    .nav__list {
-      position: static;
-      flex-direction: row;
-      background-color: var(--main-color);
-    }
-    .nav__link {
-      color: var(--secod-color);
-    }
-  }
